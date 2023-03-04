@@ -1,0 +1,222 @@
+body {
+  background-color: #f6f6f6;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 6rem;
+  color: #2B3467;
+  margin: 60px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  color: #2B3467;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #2B3467 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+p {
+  font-size: 1em;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-me {
+  text-align: center;
+  margin: auto;
+}
+.desctop_pic {
+  width: 80%;
+}
+.personal {
+  width: 45%;
+}
+.mobile {
+  position: absolute;
+  top: 4rem;
+  visibility: hidden;
+}
+
+
+.skill_row_left {
+  width: 55%;
+  text-align: center;
+  margin: 100px auto 100px auto;
+  line-height: 3;
+}
+.skill_row_right {
+  width: 55%;
+  text-align: center;
+  margin: 100px auto 100px auto;
+  line-height: 3;
+}
+
+.skill-image-left {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skill-image-right_1 {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.skill-image-right_2 {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+margin-top: 50px;
+margin-bottom: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+line-height: 3;
+}
+.footer-link {
+  padding: 30px;
+}
+.footer-paragraph {
+  color: #EAF6F6;
+}
+
+@media screen and (max-width: 1025px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .skill_row_left {
+    line-height: 2.5;
+    width: 70%;
+  }
+  .skill_row_right {
+    line-height: 2.5;
+    width: 70%;
+  }
+  .skill-image-right_1 {
+    margin-top: 40px;
+  }
+  .skill-image-right_2 {
+    margin-top: 40px;
+  }
+  .skill-image-left {
+    margin-top: 40px;
+  }
+  }
+@media screen and (max-width: 768px) {
+  .skill_row_left {
+    width: 100%;
+  }
+  .skill_row_right {
+    width: 100%;
+  }
+  .skill-image-right_2 {
+    margin-bottom: 20px;
+}
+
+/* On screens that are425 0px or less */
+@media screen and (max-width: 426px) {
+  body {
+    background-color: #f6f6f6;
+    text-align: center;
+  }
+  h1 {
+    font-size: 32px;
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  .mobile {
+    visibility: visible;
+  }
+  .desctop_pic {
+    visibility: hidden;
+  }
+  .skill-row {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .skill-image-left {
+    width: 50%;
+    float: none;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .skill-image-right_1 {
+    width: 50%;
+    float: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .skill-image-right_2 {
+    width: 50%;
+    float: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .bottom-container {
+    line-height: 1;
+  }
+  .footer-link {
+    padding: 5px;
+  }
+}
